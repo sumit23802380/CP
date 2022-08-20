@@ -252,11 +252,7 @@ pt centroid(vector<pt>& poly) {
 	return ans / area;
 }
 
-/**
- * CIRCLE FUNCTIONS
- */
-
-//vector of intersection pts of two circs (up to 2) (if circles same, returns empty vector)
+//of intersection pts of two circs (up to 2) (if circles same, returns empty vector)
 vector<pt> intsctCC(circ c1, circ c2) {
     pt d = c2.C - c1.C;
     ld d2 = norm(d);
