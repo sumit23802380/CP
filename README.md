@@ -1,4 +1,4 @@
-#  All CSES problem Codes
+#  All CSES Problem Codes
 
 * Introductory Problems
 
