@@ -21,3 +21,5 @@
 * Advanced Techniques
 
 * Additional Problems
+
+* Tips
