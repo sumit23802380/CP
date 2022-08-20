@@ -1,6 +1,7 @@
-# All CSES problem Codes
+#  All CSES problem Codes
 
 * Introductory Problems
+
 * Sorting and Searching
 
 * Dynamic Programming
@@ -11,7 +12,7 @@
 
 * Tree Algorithms
 
-* Mathematic Algorithms
+* Mathematics
 
 * String Algorithms
 
