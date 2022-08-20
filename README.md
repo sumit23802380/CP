@@ -1,11 +1,12 @@
 # All Cses problem Codes
+
 -> Introductory Problems
 -> Sorting and Searching
 -> Dynamic Programming
 -> Graph Algorithms
 -> Range Queries
 -> Tree Algorithms
--> Mathematics
+-> Mathematic Algorithms
 -> String Algorithms
 -> Geometry
 -> Advanced Techniques
