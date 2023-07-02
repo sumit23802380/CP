@@ -69,6 +69,7 @@ template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i
 template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
 //void _print(pbds v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
+#define pii pair<int,int>
  
 /*---------------------------------------------------------------------------------------------------------------------------*/
 ll gcd(ll a, ll b) {if (b > a) {return gcd(b, a);} if (b == 0) {return a;} return gcd(b, a % b);}
@@ -129,23 +130,29 @@ template <class T> void printArray(vector<T>&a){
     }
     cout<<endl;
 }
-
-/*
- 
-*/
 const int MAX1 = 100005;
 const int MAX2 = 200005;
  
-#define pii pair<int,int>
+/*
+    Dynamic Programming , binary search , Segment Tree
+    Form Graph , DFS , BFS , 
+    Prefix Sum , Greedy  
+    Reverse
+*/
 
 
 void solve(int tt)
 {
-
+	
 }
  
 signed main()
 {
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
+    // freopen("r.txt", "w", stderr);
+#endif
     mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
     fastio();
     auto start1 = high_resolution_clock::now();
